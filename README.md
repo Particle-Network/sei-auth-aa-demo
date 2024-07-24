@@ -29,7 +29,7 @@ This demo is built in both Next JS and Native React.
 
 > The React application is within the `sei-particle-aa-cra` directory.
 
-> 🛠️ Try the Next JS demo: [Particle Auth Next.js AA demo](https://Sei-particle-auth-aa-demo.vercel.app/)
+> 🛠️ Try the Next JS demo: [Particle Auth Next.js AA demo](https://sei-auth-aa-demo.vercel.app/)
 
 Built using:
 
@@ -164,7 +164,7 @@ You can configure the smart account using the `aaOptions` object in `src/app/pag
         SIMPLE: [
           {
             version: "1.0.0", // SIMPLE only allows 1.0.0
-            chainIds: [KakarotSepolia.id],
+            chainIds: [Sei.id, SeiTestnet.id],
           },
         ],
       },

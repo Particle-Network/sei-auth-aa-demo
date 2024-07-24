@@ -185,8 +185,7 @@ const Home: NextPage = () => {
                   Status: {connectionStatus}
                 </h2>
                 <h2 className="text-lg font-semibold mb-2 text-white">
-                  Address:{" "}
-                  <code>{truncateAddress(address || "Address not found")}</code>
+                  Address: <code>{truncateAddress(address || "")}</code>
                 </h2>
                 <div className="flex items-center">
                   <h3 className="text-lg mb-2 text-gray-400">

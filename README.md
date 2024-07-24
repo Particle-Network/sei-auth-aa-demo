@@ -15,7 +15,27 @@
 
 ## Table of contents
 
+# Table of contents
 
+- [Particle Auth, Account Abstraction SDK, Next.js, ethers V6, with Sei](#particle-auth-account-abstraction-sdk-nextjs-ethers-v6-with-sei)
+  - [Table of contents](#table-of-contents)
+  - [What is Sei](#what-is-sei)
+  - [🔑 Particle Auth Core](#-particle-auth-core)
+  - [🪪 Account Abstraction SDK](#-account-abstraction-sdk)
+  - [🛠️ Quickstart](#-quickstart)
+    - [Clone this repository](#clone-this-repository)
+    - [Move into the app directory (Next JS)](#move-into-the-app-directory-next-js)
+    - [Install dependencies](#install-dependencies)
+    - [Set environment variables](#set-environment-variables)
+    - [Start the project](#start-the-project)
+  - [Development Next JS](#development-next-js)
+  - [Development React Native](#development-react-native)
+    - [Config social logins](#config-social-logins)
+    - [AA options](#aa-options)
+  - [Create a React project from scratch](#create-a-react-project-from-scratch)
+    - [Create a React project](#create-a-react-project)
+  - [Install Tailwind CSS](#install-tailwind-css)
+  - [Fix Node JS polyfills issues](#fix-node-js-polyfills-issues)
 
 ⚡️ Basic demo application using `@particle-network/auth-core` and `@particle-network/aa` to initiate social login and send transactions via an account abstraction smart account on Sei.
 

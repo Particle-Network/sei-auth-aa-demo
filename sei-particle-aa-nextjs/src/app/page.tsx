@@ -155,6 +155,11 @@ const Home: NextPage = () => {
     <div className="min-h-screen flex flex-col items-center justify-between p-8 bg-black text-white">
       <Header />
       <main className="flex-grow flex flex-col items-center justify-center w-full max-w-6xl mx-auto">
+        <div className="bg-gray-800 p-4 rounded-lg shadow-lg max-w-sm mx-auto mb-4">
+          <h2 className="text-md font-semibold text-white">
+            Status: {connectionStatus}
+          </h2>
+        </div>
         {!userInfo ? (
           <div className="login-section">
             <button
@@ -181,9 +186,6 @@ const Home: NextPage = () => {
                     className="w-10 h-10 rounded-full"
                   />
                 </div>
-                <h2 className="text-lg font-semibold mb-2 text-white">
-                  Status: {connectionStatus}
-                </h2>
                 <h2 className="text-lg font-semibold mb-2 text-white">
                   Address: <code>{truncateAddress(address || "")}</code>
                 </h2>
